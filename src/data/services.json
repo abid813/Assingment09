@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.postimg.cc/JnfK96b8/Chihuahua-sitting-outdoors-in-the-snow-in-a-pink-winter-coat.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.postimg.cc/7Lry1ksg/dog-in-coat.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Warm Pet Blankets",
+    "providerName": "Pet Cozy Co",
+    "providerEmail": "contact@petcozy.com",
+    "price": 20,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "High-quality winter blankets to keep your pets warm and cozy.",
+    "image": "https://i.postimg.cc/BQdWs3GC/i-Stock-1446898945-1-2000x1500.jpg",
+    "category": "Accessories"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Winter Pet Nutrition Plan",
+    "providerName": "HealthyPaws",
+    "providerEmail": "info@healthypaws.com",
+    "price": 40,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Custom winter diet plans for pets to stay healthy and active.",
+    "image": "https://i.postimg.cc/wM7P8f4K/71pe-B8n-NP6L-AC-UF894-1000-QL80.jpg",
+    "category": "Nutrition"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Cozy Indoor Play Setup",
+    "providerName": "FunPets Studio",
+    "providerEmail": "hello@funpets.com",
+    "price": 50,
+    "rating": 4.6,
+    "slotsAvailable": 3,
+    "description": "Indoor play setups to keep your pets entertained during cold days.",
+    "image": "https://i.postimg.cc/MpDhBQQs/71m9b-Wc-TMb-L-UF1000-1000-QL80.jpg",
+    "category": "Play"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Winter Paw Protection Balm",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 15,
+    "rating": 4.8,
+    "slotsAvailable": 6,
+    "description": "Protect your pets' paws from cold and ice with our special balm.",
+    "image": "https://i.postimg.cc/FFwmF3yV/457ae653-5510-4366-b8f9-038eca3fb785-d7fbfbaf34c772f442efb940c868f682.jpg",
+    "category": "Grooming"
+  }
+]
