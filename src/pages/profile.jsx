@@ -8,7 +8,9 @@ const Profile = () => {
   const [name, setName] = useState(user?.displayName || "");
   const [photo, setPhoto] = useState(user?.photoURL || "");
 
-  if (!user) return <div className="p-8 text-center">Please login to view profile.</div>;
+  if (!user) return <div className="p-8 rounded-full  justify-center items-center bg-slate-800 flex flex-col 
+   text-white"> <h1 className="text-4xl font-bold">
+    Please login to view profile !!!</h1> </div>;
 
   const handleUpdate = async (e) => {
     e.preventDefault();
