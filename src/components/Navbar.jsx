@@ -18,7 +18,7 @@ const Navbar = () => {
   <div className="flex items-center gap-3 ">
 
       <img
-    src="https://i.postimg.cc/MpDhBQQs/71m9b-Wc-TMb-L-UF1000-1000-QL80.jpg" 
+    src="https://i.postimg.cc/JnfK96b8/Chihuahua-sitting-outdoors-in-the-snow-in-a-pink-winter-coat.jpg" 
     alt="WarmPaws Logo"
     className="w-10 h-10 rounded-full object-cover"
   />
