@@ -17,7 +17,8 @@ const Profile = () => {
   };
 
   return (
-    <div className="max-w-6/12 max-h-106  mx-auto mt-10 p-6 bg-slate-900 text-white rounded shadow text-center">
+    <div className="max-w-6/12 max-h-106  mx-auto mt-60
+    p-6 bg-slate-900 text-white rounded shadow text-center">
       <img
         src={
           user.photoURL ||

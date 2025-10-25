@@ -9,10 +9,24 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-slate-900 text-white p-6 shadow-lg max-w-[1400px] mt-2 mx-auto">
-      <div className="flex justify-between items-center">
-        {/* Logo */}
-        <h2 className="font-bold text-xl">WarmPaws</h2>
+    <nav className="bg-slate-900 text-white p-6 shadow-lg max-w-[1400px] mt-0.5 mx-auto">
+
+      <div className="flex items-center 
+      justify-between space-x-3">
+
+
+  <div className="flex items-center gap-3 ">
+
+      <img
+    src="https://i.postimg.cc/MpDhBQQs/71m9b-Wc-TMb-L-UF1000-1000-QL80.jpg" 
+    alt="WarmPaws Logo"
+    className="w-10 h-10 rounded-full object-cover"
+  />
+  <h2 className="font-bold text-xl">WarmPaws</h2>
+
+
+  </div>
+
 
         {/* Hamburger icon (mobile) */}
         <button
