@@ -8,7 +8,7 @@ const SingInWithGoogle = () => {
   const [loading, setLoading] = useState(false);
 
   const handleGoogleLogin = async () => {
-    if (loading) return; // যদি আগের popup চলছে, নতুনটি না চালাও
+    if (loading) return; 
     setLoading(true);
     try {
       const result = await signInWithPopup(auth, provider);
@@ -24,7 +24,7 @@ const SingInWithGoogle = () => {
     <div className="flex justify-center items-center h-screen">
       <button
         onClick={handleGoogleLogin}
-        disabled={loading}  // popup চললে বাটন disable
+        disabled={loading} 
         className='px-6 py-3 bg-blue-500 text-white rounded-lg'
       >
         {loading ? "Loading..." : "Login with Google"}

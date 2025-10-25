@@ -34,7 +34,7 @@ const Login = () => {
     try {
       await login(email, password);
       toast.success("✅ Login successful!", {
-        onClose: () => navigate(from, { replace: true }), // navigate AFTER toast
+        onClose: () => navigate(from, { replace: true }), 
       });
     } catch (err) {
       const msg = friendlyFirebaseError(err.message || "Login failed");

@@ -6,19 +6,19 @@ const Services = () => {
       id: 1,
       title: "Winter Jacket Cleaning",
       description: "Professional dry cleaning service for jackets, coats, and sweaters.",
-      image: "https://i.ibb.co/7r7pY5s/jacket-clean.jpg",
+      image: "https://i.postimg.cc/7Lry1ksg/dog-in-coat.jpg",
     },
     {
       id: 2,
       title: "Heater Maintenance",
       description: "Expert technicians to inspect and repair your home heating systems.",
-      image: "https://i.ibb.co/F7D7zvB/heater.jpg",
+      image: "https://i.ibb.co.com/21y30Lz2/Whats-App-Image-2025-10-25-at-02-46-29-ea60c282.jpg",
     },
     {
       id: 3,
       title: "Blanket Wash & Dry",
       description: "Fast and hygienic blanket washing and drying service for winter.",
-      image: "https://i.ibb.co/qd4c3CZ/blanket.jpg",
+      image: "https://i.ibb.co.com/RGZPtJ7Q/Whats-App-Image-2025-10-25-at-02-57-15-1195ed12.jpg",
     },
   ];
 

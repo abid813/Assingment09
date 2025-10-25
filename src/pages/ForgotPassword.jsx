@@ -9,8 +9,7 @@ const ForgotPassword = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
-  const emailFromLogin = queryParams.get("email") || ""; // Login পেজ থেকে ইমেইল আসলে নেবে
-
+  const emailFromLogin = queryParams.get("email") || ""; 
   const [email, setEmail] = useState(emailFromLogin);
   const [message, setMessage] = useState("");
 
@@ -28,8 +27,8 @@ const ForgotPassword = () => {
     try {
       await sendPasswordResetEmail(auth, email);
       alert("✅ Password reset email sent! Please check your Gmail.");
-      window.open("https://mail.google.com", "_blank"); // Gmail খুলে দিবে
-      navigate("/login"); // Login পেজে ফেরত নিয়ে যাবে
+      window.open("https://mail.google.com", "_blank"); 
+      navigate("/login"); 
     } catch (err) {
       setMessage("❌ Failed to send reset email: " + err.message);
     }

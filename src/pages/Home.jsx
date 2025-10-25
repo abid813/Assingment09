@@ -8,6 +8,10 @@ import { Navigation, Autoplay } from "swiper/modules";
 import pet1 from "../assets/pet1.jpg"
 import pet3 from "../assets/pet3.jpg"
 import pet2 from "../assets/pet2.jpg"
+import petd1 from "../assets/petd1.jpg"
+import petd2 from "../assets/petd2.jpg"
+import petg2 from "../assets/petg2.jpg"
+import petw1 from "../assets/petw1.jpg"
 
 import { Link } from "react-router-dom";
 
@@ -15,7 +19,7 @@ const Home = () => {
   return (
     <div className="max-w-[1400px] mx-auto px-4">
 
-      {/* 🐾 Hero Slider Section */}
+      {/*  Hero Slider Section */}
       <section className="mt-6">
         <Swiper
           navigation={true}
@@ -27,9 +31,9 @@ const Home = () => {
           <SwiperSlide>
             <div className="relative flex  justify-center items-center">
               <img
-                src={pet1}
+                src={petd1}
                 alt="Winter Coat for Dogs"
-                className="w-[800px] h-[450px] object-cover "
+                className="w-full h-[450px] md:h-[550px] object-cover "
               />
               <div className="absolute inset-0 b-black bg-opacity-40 flex flex-col justify-center items-center text-center text-white px-4">
                 <h2 className="text-white p-2 rounded-full text-3xl md:text-5xl font-bold  mb-3">
@@ -44,6 +48,52 @@ const Home = () => {
               </div>
             </div>
           </SwiperSlide>
+
+
+          <SwiperSlide>
+            <div className="relative flex  justify-center items-center">
+              <img
+                src={petd2}
+                alt="Winter Coat for Dogs"
+                className="w-full h-[450px] md:h-[550px] object-cover"
+              />
+              <div className="absolute inset-0 b-black bg-opacity-40 flex flex-col justify-center items-center text-center text-white px-4">
+                <h2 className="text-white p-2 rounded-full text-3xl md:text-5xl font-bold  mb-3">
+                  Keep Your Pets Warm This Winter 
+                </h2>
+                <p className="text-lg text-white  md:text-xl max-w-2xl">
+                  Cozy coats, gentle grooming, and expert tips — everything your furry friend needs.
+                </p>
+                <button className="font-bold  mt-10 bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg ">
+                  Explore Services
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+            <div className="relative flex  justify-center items-center">
+              <img
+                src={pet1}
+                alt="Winter Coat for Dogs"
+                className="w-full h-[450px] md:h-[550px] object-cover "
+              />
+              <div className="absolute inset-0 b-black bg-opacity-40 flex flex-col justify-center items-center text-center text-white px-4">
+                <h2 className="text-white p-2 rounded-full text-3xl md:text-5xl font-bold  mb-3">
+                  Keep Your Pets Warm This Winter 
+                </h2>
+                <p className="text-lg text-white  md:text-xl max-w-2xl">
+                  Cozy coats, gentle grooming, and expert tips — everything your furry friend needs.
+                </p>
+                <button className="font-bold  mt-10 bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg ">
+                  Explore Services
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
 
           <SwiperSlide>
             <div className="relative">
@@ -68,16 +118,66 @@ const Home = () => {
             </div>
           </SwiperSlide>
 
+
+          <SwiperSlide>
+            <div className="relative">
+              <img
+                src={petg2}
+                alt="Winter Grooming"
+                className="w-full h-[450px] object-cover"
+              />
+              <div className="absolute inset-0  flex flex-col justify-center items-center text-center text-white px-4">
+                
+                {/* <p className="text-lg md:text-xl max-w-2xl">
+                  Moisturizing paw balm and safe winter shampoos to protect their skin and paws.
+                </p> */}
+                <button className="mt-5 font-bold
+                 bg-yellow-500
+                  hover:bg-yellow-600 text-2xl m
+                   text-white px-6 py-2 rounded-lg 
+                 ">
+                  Book Grooming Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+            <div className="relative">
+              <img
+                src={petw1}
+                alt="Winter Grooming"
+                className="w-full h-[450px] object-cover"
+              />
+              <div className="absolute inset-0  flex flex-col justify-center items-center text-center text-white px-4">
+                
+                {/* <p className="text-lg md:text-xl max-w-2xl">
+                  Moisturizing paw balm and safe winter shampoos to protect their skin and paws.
+                </p> */}
+                <button className="mt-5 font-bold
+                 bg-yellow-500
+                  hover:bg-yellow-600 text-2xl m
+                   text-white px-6 py-2 rounded-lg 
+                 ">
+                  Book Grooming Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+
           <SwiperSlide>
             <div className="relative">
               <img
                 src={pet2}
                 alt="Pet Blanket"
-                className="w-[1000px] h-[450px] object-cover"
+                className="w-full h-[450px] md:h-[550px] object-cover"
               />
               <div className="absolute inset-0 bg-opacity-40 flex flex-col justify-center items-center text-center text-white px-4">
                 <h2 className="text-3xl md:text-5xl font-bold mb-3">
-                  Snuggle Up with Cozy Blankets 🐾
+                  Snuggle Up with Cozy Blankets
                 </h2>
                 <p className="text-lg md:text-xl max-w-2xl">
                   Give your pets the comfort of soft, warm blankets during chilly nights.
@@ -91,7 +191,7 @@ const Home = () => {
         </Swiper>
       </section>
 
-      {/* 🧊 Popular Winter Care Services Section */}
+      {/*  Popular Winter Care Services Section */}
       <section className="mt-10">
   <h2 className="text-2xl font-bold mb-6 text-center">Popular Winter Care Services</h2>
 
@@ -131,7 +231,7 @@ const Home = () => {
 </section>
 
 
-      {/* 🐶 Winter Care Tips Section */}
+      {/*  Winter Care Tips Section */}
       <section className="mt-12 bg-blue-50 rounded-lg p-6">
         <h2 className="text-2xl font-bold mb-4 text-center text-blue-800">Winter Care Tips for Pets</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2 max-w-2xl mx-auto">
@@ -142,7 +242,7 @@ const Home = () => {
         </ul>
       </section>
 
-    {/* 👩‍⚕️ Expert Vets Section */}
+    {/*  Expert Vets Section */}
 <section className="mt-12 mb-12">
   <h2 className="text-2xl font-bold mb-6 text-center text-blue-800">
     Meet Our Expert Vets

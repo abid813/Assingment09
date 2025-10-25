@@ -11,7 +11,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // 🔹 Dummy register logic (Firebase না থাকলে)
+    // 🔹 Dummy register logic
     if (name && email && password) {
       alert("Registration successful!");
       navigate("/login");
